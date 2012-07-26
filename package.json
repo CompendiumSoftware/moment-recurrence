@@ -1,14 +1,14 @@
-{ "name": "moment-rrule"
+{ "name": "moment-recurrence"
 , "version": "0.1.0"
 , "description": "icalendar rrule handling"
-, "homepage": "https://github.com/compendiumsoftware/moment-rrule"
+, "homepage": "https://github.com/compendiumsoftware/moment-recurrence"
 , "author": "Stephen Gregory (sgregory@compendium.com)"
 , "keywords": [ "moment"
               , "rrule"
               , "icalendar"
               , "date"
               ]
-, "main": "./moment.rrule"
+, "main": "./moment.recurrence"
 , "engines": { "node": "*"
              }
 , "dependencies": { "moment": ">=1.4.0"
@@ -18,8 +18,8 @@
                      , "jshint": "latest"
                      }
 , "repository": { "type": "git"
-                , "url": "https://github.com/compendiumsoftware/moment-rrule.git"
+                , "url": "https://github.com/compendiumsoftware/moment-recurrence.git"
                 }
-, "bugs": { "url": "https://github.com/compendiumsoftware/moment-rrule/issues"
+, "bugs": { "url": "https://github.com/compendiumsoftware/moment-recurrence/issues"
           }
 }
