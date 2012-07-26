@@ -4,7 +4,7 @@ SRC = moment.recurrence.js
 test: mocha lint 
 
 ci:
-	./node_modules/.bin/mocha -R xunit test/rrule.js > junit.xml &&  ./node_modules/.bin/jshint $(SRC) --jslint-reporter > jshint.xml
+	./node_modules/.bin/mocha -R xunit test/rrule.js > junit.xml
 
 mocha:
 	./node_modules/.bin/mocha test/rrule.js
