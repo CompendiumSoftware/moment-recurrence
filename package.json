@@ -1,0 +1,25 @@
+{ "name": "moment-rrule"
+, "version": "0.1.0"
+, "description": "icalendar rrule handling"
+, "homepage": "https://github.com/compendiumsoftware/moment-rrule"
+, "author": "Stephen Gregory (sgregory@compendium.com)"
+, "keywords": [ "moment"
+              , "rrule"
+              , "icalendar"
+              , "date"
+              ]
+, "main": "./moment.rrule"
+, "engines": { "node": "*"
+             }
+, "dependencies": { "moment": ">=1.4.0"
+                  }
+, "devDependencies": { "mocha": "latest"
+                     , "chai": "latest"
+                     , "jshint": "latest"
+                     }
+, "repository": { "type": "git"
+                , "url": "https://github.com/compendiumsoftware/moment-rrule.git"
+                }
+, "bugs": { "url": "https://github.com/compendiumsoftware/moment-rrule/issues"
+          }
+}
