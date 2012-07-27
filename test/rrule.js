@@ -95,7 +95,7 @@ describe("recurrence", function(){
 	should.not.exist(n);
   });
   
-  it("shoudl work with daily patterns", function(){
+  it("should work with daily patterns", function(){
 	
 	var m = moment("1982-1-1");
 	m.recurr({freq: "daily", interval : 2, count: 2});
@@ -116,5 +116,7 @@ describe("recurrence", function(){
 	n = n.nextRecurrence();
 	should.not.exist(n);
   });
+			 
+
   
 });

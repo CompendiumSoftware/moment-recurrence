@@ -29,8 +29,7 @@ if ( typeof require !== 'undefined' )
 	
 	this.freq  = val.freq || 'DAILY';
 	this.interval = val.interval || 1;
-	this.byDay= val.byDay || null;
-	this.byMonth= val.byMonth | null;
+	this.by= val.by || null;
 	this.until= val.until || null;
 	this.count = val.count || -1;
 	
